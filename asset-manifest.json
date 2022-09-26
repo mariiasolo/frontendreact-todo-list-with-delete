@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontendreact-todo-list-with-delete/static/css/main.57215d8f.css",
+    "main.js": "/frontendreact-todo-list-with-delete/static/js/main.f636b29b.js",
+    "static/js/787.4c3d5974.chunk.js": "/frontendreact-todo-list-with-delete/static/js/787.4c3d5974.chunk.js",
+    "index.html": "/frontendreact-todo-list-with-delete/index.html",
+    "main.57215d8f.css.map": "/frontendreact-todo-list-with-delete/static/css/main.57215d8f.css.map",
+    "main.f636b29b.js.map": "/frontendreact-todo-list-with-delete/static/js/main.f636b29b.js.map",
+    "787.4c3d5974.chunk.js.map": "/frontendreact-todo-list-with-delete/static/js/787.4c3d5974.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57215d8f.css",
+    "static/js/main.f636b29b.js"
+  ]
+}
