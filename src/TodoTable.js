@@ -1,26 +1,16 @@
-import React from 'react';
+import React, {useState, useRef} from 'react';
+import { AgGridReact } from 'ag-grid-react';
+
+import 'ag-grid-community/styles/ag-grid.css';
+import 'ag-grid-community/styles/ag-theme-material.css';
 
 
-function TodoTable (props) {
+function TodoTable ({todoList, deleteTodo}) {
     return (
-    <div className = "App">
-        <table>
-            <tbody>
-                <tr>
-                    <th>Date</th>
-                    <th>Description</th>
-                </tr>        
-                { 
-                props.todoList.map ((todo, index) => 
-                    <tr key= {index}>
-                        <td> {todo.date} </td>
-                        <td> {todo.description }</td>
-                        <td><button onClick = {() => props.deleteTodo(index)}>Delete</button></td>
-                    </tr>
-                )
-                }
-            </tbody>
-        </table>
+    <div>
+        <AgGridReact 
+            
+        />
     </div>  
     );
 }
