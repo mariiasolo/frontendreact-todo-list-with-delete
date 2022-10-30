@@ -9,7 +9,7 @@ export const Nav = () => {
 
     const [value, setValue] = useState('home')
 
-    const handleChange = (e, newValue) => {
+    const handleChange = (event, newValue) => {
         setValue(newValue)
     }
 
